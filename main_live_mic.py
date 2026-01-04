@@ -12,6 +12,9 @@ from router import get_response
 # Optional TTS
 from tts_pyttsx3 import speak
 
+# Demo import from another folder
+from demo_module import hello_world
+
 DEVICE_INDEX = 1      # Webcam mic (WASAPI). If any issue, try 1.
 SECONDS = 7
 TARGET_SR = 16000
@@ -59,6 +62,10 @@ def run_once():
 def main():
     print("=== LIVE MIC: WAKTU SOLAT ASSISTANT ===")
     print("Press Enter to record. Type 'q' then Enter to quit.\n")
+    
+    # Test demo import
+    hello_world()
+    print()
 
     while True:
         cmd = input(">> ").strip().lower()
