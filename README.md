@@ -65,18 +65,17 @@ The assistant maps locations to Selangor zones:
 
 ## Installation (Raspberry Pi)
 
+
 ### 1) Clone repository
 ```bash
 git clone <your-repo-url>
 cd <your-repo-folder>
 
-## Setup (Raspberry Pi)
-
-### 1) Create venv (recommended)
+### 2) Create venv (recommended)
 python3 -m venv .venv
 source .venv/bin/activate
 
-### 2) Install dependencies
+### 3) Install dependencies
 pip install -r requirements.txt
 
 If you don’t have requirements.txt, install manually:
