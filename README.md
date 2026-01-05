@@ -71,6 +71,8 @@ The assistant maps locations to Selangor zones:
 git clone <your-repo-url>
 cd <your-repo-folder>
 
+---
+
 ### 2) Create venv (recommended)
 python3 -m venv .venv
 source .venv/bin/activate
