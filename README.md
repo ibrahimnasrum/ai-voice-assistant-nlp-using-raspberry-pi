@@ -65,12 +65,12 @@ The assistant maps locations to Selangor zones:
 
 ## Installation (Raspberry Pi)
 
-
 ### 1) Clone repository
 ```bash
 git clone <your-repo-url>
 cd <your-repo-folder>
 
+```
 ---
 
 ### 2) Create venv (recommended)
